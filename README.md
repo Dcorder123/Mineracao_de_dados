@@ -79,3 +79,29 @@ Quadro branco, projetor multimidia, computadores com ambiente de programacao Pyt
 
 - Roteiro01/steam.ipynb: notebook da analise da base da Steam para o roteiro da disciplina.
 
+## Como rodar o notebook
+
+### Opcao 1: VS Code (recomendado neste repositorio)
+
+1. Abra a pasta do projeto no VS Code.
+2. Abra o notebook `Roteiro01/steam.ipynb`.
+3. Selecione um kernel Python (de preferencia Python 3.10+).
+4. Execute a primeira celula de instalacao de dependencias (`%pip install ...`).
+5. Execute as celulas em ordem, de cima para baixo.
+
+Observacao:
+- O notebook baixa o dataset automaticamente via `kagglehub`.
+- Na primeira execucao, o download pode demorar alguns minutos.
+
+### Opcao 2: Google Colab
+
+1. Envie o arquivo `Roteiro01/steam.ipynb` para o Colab.
+2. Rode a primeira celula de instalacao de dependencias.
+3. Execute as demais celulas em ordem.
+
+### Checklist rapido
+
+- Ter internet ativa para baixar o dataset.
+- Garantir que as bibliotecas foram instaladas sem erro.
+- Rodar todas as celulas em sequencia para manter o estado correto.
+
